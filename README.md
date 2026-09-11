@@ -139,4 +139,11 @@ Has cargo: true
 
 ## Check your understanding
 
-`"Score: " + 12` prints `Score: 12`. If battery is `40`, then `battery > 50` is `false`.
+1. <details>
+     <summary>What does `"Score: " + 12` print?</summary>
+     `Score: 12` (concatenation joins the string and the number).
+   </details>
+2. <details>
+     <summary>If `battery` is `40`, what is `battery > 50`?</summary>
+     `false`.
+   </details>
