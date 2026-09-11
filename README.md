@@ -104,7 +104,7 @@ System.out.println("Battery critical: " + isLow);
 
 Edit `Main.java`. Put **all** of your code inside `main`. Use variables and `System.out.println` with concatenation (`"label: " + value`).
 
-### Challenge 1 — Match info
+### Challenge 1 - Match info
 
 Declare variables for your team number, driver name, and match number. Print **three lines** that include these labels (values can be yours):
 
@@ -114,7 +114,7 @@ Driver: Alex
 Match: 3
 ```
 
-### Challenge 2 — Drive settings
+### Challenge 2 - Drive settings
 
 Print **two more lines** with a drive speed (number) and whether autonomous is on (`true` or `false`):
 
@@ -123,7 +123,7 @@ Drive speed: 0.75
 Autonomous: true
 ```
 
-### Challenge 3 — Cargo tracking
+### Challenge 3 - Cargo tracking
 
 1. Set `int cargoCount = 0;` and print it with a label that includes `Cargo` and `0`.
 2. Update with `cargoCount = cargoCount + 3;` and print again (label includes `Cargo` and `3`).
