@@ -13,25 +13,24 @@ Prerequisites: Lesson one - print statements
 - Concatenation for printing labels with values
 ### Declaring and assigning
 
+```java
 int teamNumber = 1038;
-
-
+```
 
 ```java
 int batteryPercent;
+batteryPercent = 75;
 ```
 
-batteryPercent = 75;
-
-= stores a value in a variable.
+`=` stores a value in a variable.
 
 ### Printing with concatenation
 
 ```java
-System.out.println("Batery Percentage: " + batteryPercent);
+System.out.println("Battery Percentage: " + batteryPercent);
 ```
 
-+ joins text and values into one String for printing. Include spaces inside the quotes when you need them.
+`+` joins text and values into one String for printing. Include spaces inside the quotes when you need them.
 
 #### Math Expressions
 
@@ -89,18 +88,55 @@ boolean batteryOk = batteryPercent > 50;
 
 ```java
 System.out.println("Battery OK: " + batteryOk);
->= and <= compare
+```
+
+#### `>=` and `<=` compare
+
 Greater than or equal to, and less than or equal to.
+
+```java
 boolean atLimit = count >= 10;
 boolean isLow = batteryPercent <= 20;
 System.out.println("Battery critical: " + isLow);
 ```
 
-### Try it yourself
+## Try it yourself
 
-- Challenge 1: print Team/Driver/Match with concatenation.
-- Challenge 2: print Drive speed and Autonomous with concatenation.
-- Challenge 3: cargoCount = 0; print; cargoCount = cargoCount + 3; print; hasCargo = cargoCount > 0; print.
-### Check your understanding
+Edit `Main.java`. Put **all** of your code inside `main`. Use variables and `System.out.println` with concatenation (`"label: " + value`).
 
-"Score: " + 12 prints Score: 12. If battery is 40, battery > 50 is false.
+### Challenge 1 — Match info
+
+Declare variables for your team number, driver name, and match number. Print **three lines** that include these labels (values can be yours):
+
+```
+Team: 1038
+Driver: Alex
+Match: 3
+```
+
+### Challenge 2 — Drive settings
+
+Print **two more lines** with a drive speed (number) and whether autonomous is on (`true` or `false`):
+
+```
+Drive speed: 0.75
+Autonomous: true
+```
+
+### Challenge 3 — Cargo tracking
+
+1. Set `int cargoCount = 0;` and print it with a label that includes `Cargo` and `0`.
+2. Update with `cargoCount = cargoCount + 3;` and print again (label includes `Cargo` and `3`).
+3. Set `boolean hasCargo = cargoCount > 0;` and print it (label includes `Has cargo` and `true`).
+
+Example output for this challenge:
+
+```
+Cargo: 0
+Cargo: 3
+Has cargo: true
+```
+
+## Check your understanding
+
+`"Score: " + 12` prints `Score: 12`. If battery is `40`, then `battery > 50` is `false`.
