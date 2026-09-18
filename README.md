@@ -102,7 +102,9 @@ System.out.println("Battery critical: " + isLow);
 
 ## Try it yourself
 
-Edit `Main.java`. Put **all** of your code inside `main`. Use variables and `System.out.println` with concatenation (`"label: " + value`).
+Edit `Main.java`. Put **all** of your challenge code inside the `main` method.
+
+Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
 
 ### Challenge 1 - Match info
 
