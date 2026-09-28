@@ -102,9 +102,9 @@ System.out.println("Battery critical: " + isLow);
 
 ## Try it yourself
 
-Edit `Main.java`. Put **all** of your challenge code inside the `main` method.
+Edit `src/main/java/Main.java`. Put **all** of your challenge code inside the `main` method.
 
-Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
+Do **not** edit `src/test/java/MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `src/main/java/Main.java`.
 
 ### Challenge 1 - Match info
 
