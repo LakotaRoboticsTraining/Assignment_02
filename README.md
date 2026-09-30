@@ -129,7 +129,7 @@ Autonomous: true
 
 1. Set `int cargoCount = 0;` and print it with a label that includes `Cargo` and `0`.
 2. Update with `cargoCount = cargoCount + 3;` and print again (label includes `Cargo` and `3`).
-3. Set `boolean hasCargo = cargoCount > 0;` and print it (label includes `Has cargo` and `true`).
+3. Set `boolean hasCargo = cargoCount > 0;` and print it with a label and `true` (examples: `Has cargo: true` or `hasCargo: true`).
 
 Example output for this challenge:
 
